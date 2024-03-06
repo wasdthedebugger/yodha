@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niyodha - Increase Your Productivity in Yodha</title>
+    <!-- favicon -->
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <img src="icon.png" alt="Niyodha Logo" class="logo">
+        <h1>Niyodha - By Nikas Ghimire</h1>
+        <p>An extension to help you increase your productivity in Yodha</p>
+        <p>You can download the extension <a href="niyodha.crx" class="download-link" download>here</a></p>
+        <p class="instruction">Once the 'niyodha.crx' file is downloaded, open it with Chrome, Edge or any browser that supports extensions</p>
+    </main>
+</body>
+<!-- script -->
+<script>
+    // if client isnt from a laptop or desktop, just show a message to say sorry
+    if (window.screen.width < 768) {
+        document.body.innerHTML = `
+            <main>
+                <h1>Sorry</h1>
+                <p>This extension is currently only available for desktop browsers</p>
+            </main>
+        `;
+    }
+</script>
+</html>

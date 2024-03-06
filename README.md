@@ -1,2 +1,3 @@
-# yodha
-Extensions that will not let me get suspended again
+# Niyodha
+
+An extension to help you increase your productivity in Yodha
